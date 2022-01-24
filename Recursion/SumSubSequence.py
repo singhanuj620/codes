@@ -2,14 +2,12 @@
 # [[1,1], [2]]
 
 
-n = int(input())
-arr = []
-for i in range(n):
-    arr.append(int(input()))
+n = 3
+arr = [1, 2, 1]
 resArr = []
 newArr = []
 currSm = 0
-sm = int(input())
+sm = 2
 
 
 def findSeqSum(ind, n, newArr, sm, currSm):
